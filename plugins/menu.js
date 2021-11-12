@@ -21,7 +21,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
-├ %github
+├ https://github.com/Syahrul17458/ngetes
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
@@ -189,7 +189,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© stikerin",
+          "description": "© RULZT",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
